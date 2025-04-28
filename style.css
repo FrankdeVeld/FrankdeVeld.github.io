@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif; /* Use a common, readable font */
+    line-height: 1.6;       /* Improve spacing between lines */
+    max-width: 800px;       /* Limit width on large screens for readability */
+    margin: 2em auto;       /* Add space around the content and center it */
+    padding: 0 1em;         /* Add padding inside the content area */
+    color: #333;            /* Dark grey text color */
+}
+
+h1 {
+    color: #111;            /* Slightly darker color for the main heading */
+    text-align: center;     /* Center the main heading */
+}
+
+h2 {
+    border-bottom: 1px solid #ccc; /* Add a subtle line below the second heading */
+    padding-bottom: 0.3em;
+    margin-top: 2em;        /* Add space above the links section */
+}
+
+ul {
+    list-style-type: none;  /* Remove default bullet points */
+    padding-left: 0;        /* Remove default padding */
+}
+
+li {
+    margin-bottom: 0.75em;  /* Add space between list items */
+}
+
+a {
+    color: #007bff;         /* A standard blue link color */
+    text-decoration: none;  /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline when hovering over links */
+    color: #0056b3;         /* Slightly darker blue on hover */
+}
