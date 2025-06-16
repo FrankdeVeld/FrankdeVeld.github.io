@@ -1,38 +1,62 @@
+/* General Body Styles */
 body {
-    font-family: sans-serif; /* Use a common, readable font */
-    line-height: 1.6;       /* Improve spacing between lines */
-    max-width: 800px;       /* Limit width on large screens for readability */
-    margin: 2em auto;       /* Add space around the content and center it */
-    padding: 0 1em;         /* Add padding inside the content area */
-    color: #333;            /* Dark grey text color */
+    font-family: Arial, sans-serif; /* A clean, common sans-serif font */
+    line-height: 1.6; /* Improves readability by adding space between lines */
+    margin: 0; /* Removes default browser margin around the body */
+    background-color: #f8f8f8; /* A very light grey background for the page */
+    color: #333; /* Default text color, a soft black */
 }
 
+/* Container for main content */
+.container {
+    max-width: 800px; /* Limits the width of your content */
+    margin: 40px auto; /* Centers the container horizontally (auto) and adds vertical margin (40px) */
+    padding: 20px; /* Adds space inside the container, preventing content from touching edges */
+    background-color: #fff; /* White background for the content area */
+    /* Optional: Add a subtle shadow if you want the content box to stand out a bit */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); */
+}
+
+/* Headings */
 h1 {
-    color: #111;            /* Slightly darker color for the main heading */
-    text-align: center;     /* Center the main heading */
+    font-size: 2.5em; /* Larger size for the main title */
+    text-align: center; /* Centers the main title */
+    margin-bottom: 30px; /* Space below the main title */
+    color: #222; /* Slightly darker color for headings */
 }
 
 h2 {
-    border-bottom: 1px solid #ccc; /* Add a subtle line below the second heading */
-    padding-bottom: 0.3em;
-    margin-top: 2em;        /* Add space above the links section */
+    font-size: 1.8em; /* Size for the "Find me online" heading */
+    margin-top: 40px; /* More space above this heading to separate it from the paragraph */
+    margin-bottom: 20px; /* Space below this heading */
+    color: #222;
 }
 
+/* Paragraph Text */
+p {
+    margin-bottom: 20px; /* Adds space below paragraphs */
+    text-align: left; /* Aligns text to the left. You could use 'justify' if you prefer even edges. */
+}
+
+/* List of Links */
 ul {
-    list-style-type: none;  /* Remove default bullet points */
-    padding-left: 0;        /* Remove default padding */
+    list-style: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default left padding from the list */
+    margin: 0; /* Removes default top/bottom margin from the list */
 }
 
 li {
-    margin-bottom: 0.75em;  /* Add space between list items */
+    margin-bottom: 10px; /* Adds space between each list item (link) */
 }
 
+/* Links (Anchor tags) */
 a {
-    color: #007bff;         /* A standard blue link color */
-    text-decoration: none;  /* Remove underline from links */
+    color: #007bff; /* A standard blue color for links */
+    text-decoration: none; /* Removes the default underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 a:hover {
-    text-decoration: underline; /* Add underline when hovering over links */
-    color: #0056b3;         /* Slightly darker blue on hover */
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Adds an underline on hover for better user feedback */
 }
