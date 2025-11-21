@@ -36,6 +36,7 @@ h2 {
 p {
     margin-bottom: 20px; /* Adds space below paragraphs */
     text-align: left; /* Aligns text to the left. You could use 'justify' if you prefer even edges. */
+    line-height: 1.6;    /* Optional: Makes the text easier to read */
 }
 
 /* List of Links */
